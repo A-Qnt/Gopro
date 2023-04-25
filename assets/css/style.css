@@ -46,22 +46,43 @@ body{
   padding-right: 10px;
 }
 
+form{
+  background-color: red;
+}
 .login{
-  background-color: blue;
+  position: relative;
   display: flex;
   flex-direction: column  ;
+  justify-content: center;
 }
 
 .login input{
-  text-indent:20px;
+  text-indent:30px;
   border: none;
   height: 50px;
 }
 
+.liseret{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  width: 90%;
+  height: 1px;
+  background-color: #e0e0e0;
+}
+
 .login .mail{
+  position: relative;
   width: 100%;
 }
 
 .login .password{
+  position: relative;
   width: 100%;
+}
+
+.login i{
+  position: absolute;
+  left: 10px;
+  top: 17px;
 }
