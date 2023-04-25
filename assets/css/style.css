@@ -21,19 +21,22 @@ body{
   /* background-color: red; */
   text-align: center;
   justify-content: center;
-  width: 600px;
- 
+  width: 440px;
+  text-align: justify;
 }
 
 .titre{
   color: white;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
+  font-size: 14px;
   margin-bottom: 40px;
 }
 .abo ul li{
   color: white;
   font-family: 'Roboto', sans-serif;
+  font-weight:500;
+  font-size: 16px;
   list-style-type: none;
   display: flex;
   align-items: center;
@@ -46,9 +49,7 @@ body{
   padding-right: 10px;
 }
 
-form{
-  background-color: red;
-}
+
 .login{
   position: relative;
   display: flex;
@@ -87,3 +88,80 @@ form{
   top: 17px;
 }
 
+.button button{
+  background-color: #009fdf;
+  color: white;
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-radius: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+
+}
+
+.button{
+  margin-top: 10px;
+}
+
+.forgot{
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  color: #d4d2d2;
+  font-family: 'Roboto', sans-serif;
+  font-weight:lighter;
+  font-size: 14px;
+}
+
+.forgot i{
+  padding-right: 10px;
+}
+
+.question p{
+  margin-top: 20px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+.question p span{
+  color: #009fdf;
+}
+
+.reseau{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.reseau button{
+  background-color: #009fdf;
+  color: white;
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-radius: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.reseau .apple{
+  background-color: #000000;
+}
+
+.reseau .fb{
+  background-color: #222;
+}
+
+.reseau .google{
+  background-color: #ffffff;
+  color: rgba(0,0,0,.54);
+}
+
+@media screen {
+  
+}
