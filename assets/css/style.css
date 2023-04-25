@@ -1,5 +1,67 @@
 *{
+  padding: 0;
+  margin: 0;
+}
+body{
   background-image: url(/assets/img/plage.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.logo img{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 140px;
+}
+
+.main{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  /* background-color: red; */
+  text-align: center;
+  justify-content: center;
+  width: 600px;
+ 
+}
+
+.titre{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.abo ul li{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 7px 0;
+  text-align: justify;
+}
+
+.abo ul li img{
+  height: 20px;
+  padding-right: 10px;
+}
+
+.login{
+  background-color: blue;
+  display: flex;
+  flex-direction: column  ;
+}
+
+.login input{
+  text-indent:20px;
+  border: none;
+  height: 50px;
+}
+
+.login .mail{
+  width: 100%;
+}
+
+.login .password{
+  width: 100%;
 }
