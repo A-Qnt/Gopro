@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Sign in</title>
+
     <!-- Style css link -->
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -16,93 +18,90 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800;900&display=swap" rel="stylesheet">
 
-<!-- librairie icon -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <!-- librairie icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    <div class="main">
-        <div class="logo">
-            <img src="assets/img/logo.png" alt="logo gopro">
-        </div>
-        <div class="titre">
-            <h1>Connexion pour abonné GoPro</h1>
-        </div>
-        <div class="abo">
-            <ul>
-                <li>
-                    <p>L'abonnement GoPro, c'est:</p>
-                </li>
-                <li>
-                    <img src="assets/img/verifie.png" alt="coche bleu">
-                    <p>Des remises exclusives sur les caméras</p>
-                </li>
-                <li>
-                    <img src="assets/img/verifie.png" alt="coche bleu">
-                    <p>Un stockage illimité dans le cloud sans aucune perte de<br>qualité pour vos images GoPro</p>
-                </li>
-                <li>
-                    <img src="assets/img/verifie.png" alt="coche bleu">
-                    <p>Jusqu’à 50 % de remise sur les fixations, accessoires et<br>équipements Lifestyle sur GoPro.com</p>
-                </li>
-                <li>
-                    <img src="assets/img/verifie.png" alt="coche bleu">
-                    <p>Remplacement de la caméra « sans poser de questions »</p>
-                </li>
-            </ul>
-        </div>
-        <form action="">
-            <div class="login">
-                <div class="mail">
-                    <input type="email" class="mail" value name="login email" placeholder="Email">
-                    <i class="fa-sharp fa-regular fa-envelope" style="color: #11dfc7;"></i>
+        <div class="main">
+            <div class="logo">
+                <img src="assets/img/logo.png" alt="logo gopro">
+            </div>
+            <div class="titre">
+                <h1>Connexion pour abonné GoPro</h1>
+            </div>
+            <div class="abo">
+                <ul>
+                    <li>
+                        <p>L'abonnement GoPro, c'est:</p>
+                    </li>
+                    <li>
+                        <img src="assets/img/verifie.png" alt="coche bleu">
+                        <p>Des remises exclusives sur les caméras</p>
+                    </li>
+                    <li>
+                        <img src="assets/img/verifie.png" alt="coche bleu">
+                        <p>Un stockage illimité dans le cloud sans aucune perte de<br>qualité pour vos images GoPro</p>
+                    </li>
+                    <li>
+                        <img src="assets/img/verifie.png" alt="coche bleu">
+                        <p>Jusqu’à 50 % de remise sur les fixations, accessoires et<br>équipements Lifestyle sur
+                            GoPro.com</p>
+                    </li>
+                    <li>
+                        <img src="assets/img/verifie.png" alt="coche bleu">
+                        <p>Remplacement de la caméra « sans poser de questions »</p>
+                    </li>
+                </ul>
+            </div>
+            <form action="">
+                <div class="login">
+                    <div class="mail">
+                        <input type="email" class="mail" value name="login email" placeholder="Email">
+                        <i class="fa-sharp fa-regular fa-envelope fa-xl" style="color: #11dfc7;"></i>
+                    </div>
+                    <div class="password">
+                        <input type="password" class="password" value name="login password" placeholder="Password">
+                        <i class="fa-solid fa-lock fa-xl" style="color: #11dfc7;"></i>
+                    </div>
+                    <div class="liseret">
+                    </div>
                 </div>
-                
                 <div class="password">
-                    <input type="password" class="password" value name="login password" placeholder="Password">
-                    <i class="fa-solid fa-lock" style="color: #11dfc7;"></i>
+                    <div class="button">
+                        <button>Connexion</button>
+                    </div>
                 </div>
-                <div class="liseret"></div>
+                <div class="forgot">
+                    <i class="fa-solid fa-lock" style="color: #d4d2d2;"></i>
+                    <p>Mot de passe oublié ?</p>
+                </div>
+            </form>
+            <div class="question">
+                <p>Vous n’êtes pas abonné ? <span>Abonnez-vous aujourd’hui et économisez</span></p>
             </div>
-            <div class="password">
-                <div class="button">
-                    <button>Connexion</button>
+            <div class="reseau">
+                <div class="icon">
+                    <button class="apple">
+                        <i class="fa-brands fa-apple fa-xl" style="color: #ffffff;"></i>
+                        Continuer avec Apple</button>
+                </div>
+                <div class="icon">
+                    <button class="fb">
+                        <i class="fa-brands fa-facebook-f fa-xl" style="color: #ffffff;"></i>
+                        Continuer avec Facebook</button>
+                </div>
+                <div class="icon">
+                    <button class="google">
+                        <i class="fa-brands fa-google fa-xl" style="color: #222;"></i>
+                        Continuer avec Google</button>
+                </div>
+                <div class="question">
+                    <p>Vous avez besoin d'un compte ? <span>Inscrivez vous gratuitement</span></p>
                 </div>
             </div>
-            <div class="forgot">
-                <i class="fa-solid fa-lock" style="color: #d4d2d2;"></i>
-                <p>Mot de passe oublié ?</p>
-            </div>  
-        </form>
-        <div class="question">
-            <p>Vous n’êtes pas abonné ? <span>Abonnez-vous aujourd’hui et économisez</span></p>
         </div>
-        <div class="reseau">
-            <div class="icon">
-                <button class="apple">
-                    <i class="fa-brands fa-apple fa-xl" style="color: #ffffff;"></i>
-                    Continuer avec Apple</button>
-                
-            </div>
-            <div class="icon">
-                <button class="fb">
-                    <i class="fa-brands fa-facebook-f fa-xl" style="color: #ffffff;"></i>
-                    Continuer avec Facebook</button>
-                
-            </div>
-            <div class="icon">
-                <button class="google">
-                    <i class="fa-brands fa-google fa-xl" style="color: #222;"></i>
-                    Continuer avec Google</button>
-                
-            </div>
-        <div class="question">
-            <p>Vous avez besoin d'un compte ? <span>Inscrivez vous gratuitement</span></p>
-        </div>
-    </div>
-    
-    
 </body>
 </html>
