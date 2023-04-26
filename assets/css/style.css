@@ -3,9 +3,11 @@
   margin: 0;
 }
 body{
+  position: static;
   background-image: url(/assets/img/plage.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
+  background-attachment: fixed;
 }
 
 .logo img{
@@ -119,6 +121,10 @@ body{
   padding-right: 10px;
 }
 
+.question{
+  margin-bottom: 20px;
+}
+
 .question p{
   margin-top: 20px;
   color: white;
@@ -149,6 +155,9 @@ body{
   margin-top: 10px;
 }
 
+.icon i{
+  padding-right: 25px;
+}
 .reseau .apple{
   background-color: #000000;
 }
@@ -162,6 +171,18 @@ body{
   color: rgba(0,0,0,.54);
 }
 
-@media screen {
-  
+
+
+@media screen and (max-width: 450px) {
+
+  .main{
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+
+  .main{
+    width: 250px;
+  }
 }
